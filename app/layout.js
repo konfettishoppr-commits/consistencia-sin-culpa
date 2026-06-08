@@ -4,13 +4,13 @@ export const metadata = {
   title: 'Consistencia sin Culpa',
   description: 'Pequeños pasos también construyen grandes sueños.',
   manifest: '/manifest.json',
+}
+
+export const viewport = {
   themeColor: '#eb4193',
-  appleWebApp: {
-    capable: true,
-    statusBarStyle: 'default',
-    title: 'Consistencia',
-  },
-  viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 1,
 }
 
 export default function RootLayout({ children }) {
